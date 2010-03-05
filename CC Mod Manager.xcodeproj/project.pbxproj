@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77631A270C06C501005415CB /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77631A260C06C501005415CB /* Python.framework */; };
+		77631A3F0C0748CF005415CB /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 77631A3E0C0748CF005415CB /* main.py */; };
+		7790198F0C07548A00326F66 /* MCCMMAppDelegate.py in Resources */ = {isa = PBXBuildFile; fileRef = 7790198E0C07548A00326F66 /* MCCMMAppDelegate.py */; };
+		77C8C1F90C07829500965286 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C8C1F70C07829500965286 /* MainMenu.xib */; };
+		826102D3110AB20500D07836 /* ccicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 826102D2110AB20500D07836 /* ccicon.png */; };
+		826103D5110B4AC700D07836 /* ModScanner.py in Resources */ = {isa = PBXBuildFile; fileRef = 826103D4110B4AC700D07836 /* ModScanner.py */; };
+		82610715110EA68D003D4DF4 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82610714110EA68D003D4DF4 /* BWToolkitFramework.framework */; };
+		82610718110EA693003D4DF4 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 82610714110EA68D003D4DF4 /* BWToolkitFramework.framework */; };
+		8261074B110EA6A3003D4DF4 /* BWToolkitFrameworkWrapper.py in Resources */ = {isa = PBXBuildFile; fileRef = 8261074A110EA6A3003D4DF4 /* BWToolkitFrameworkWrapper.py */; };
+		827E3025110E601900BFA116 /* CCDir.py in Resources */ = {isa = PBXBuildFile; fileRef = 827E3024110E601900BFA116 /* CCDir.py */; };
+		82A7BC4B110137E000DEAF77 /* CCMMController.py in Resources */ = {isa = PBXBuildFile; fileRef = 82A7BC4A110137E000DEAF77 /* CCMMController.py */; };
+		82D9A4651102BCD7003D15CA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 82D9A4641102BCD7003D15CA /* icon.icns */; };
+		82E116E5110165940075A63E /* Add.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 82E116E4110165940075A63E /* Add.tiff */; };
+		82E116E7110165A20075A63E /* Remove.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 82E116E6110165A20075A63E /* Remove.tiff */; };
+		82E116E9110165A80075A63E /* reload.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 82E116E8110165A80075A63E /* reload.tiff */; };
+		82E1171811016B980075A63E /* Spotlight.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 82E1171711016B980075A63E /* Spotlight.tiff */; };
+		82F016701110070100048140 /* noicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 82F0166F1110070100048140 /* noicon.png */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		82E116B11101598E0075A63E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				82610718110EA693003D4DF4 /* BWToolkitFramework.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		32CA4F630368D1EE00C91783 /* CC Mod Manager_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CC Mod Manager_Prefix.pch"; sourceTree = "<group>"; };
+		77631A260C06C501005415CB /* Python.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Python.framework; path = /System/Library/Frameworks/Python.framework; sourceTree = "<absolute>"; };
+		77631A3E0C0748CF005415CB /* main.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = main.py; sourceTree = "<group>"; };
+		7790198E0C07548A00326F66 /* MCCMMAppDelegate.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = MCCMMAppDelegate.py; sourceTree = "<group>"; };
+		77C8C1F80C07829500965286 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		826102D2110AB20500D07836 /* ccicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ccicon.png; sourceTree = "<group>"; };
+		826103D4110B4AC700D07836 /* ModScanner.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = ModScanner.py; sourceTree = "<group>"; };
+		82610714110EA68D003D4DF4 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = Library/Frameworks/BWToolkitFramework.framework; sourceTree = SDKROOT; };
+		8261074A110EA6A3003D4DF4 /* BWToolkitFrameworkWrapper.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = BWToolkitFrameworkWrapper.py; sourceTree = "<group>"; };
+		827E3024110E601900BFA116 /* CCDir.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = CCDir.py; sourceTree = "<group>"; };
+		82A7BC4A110137E000DEAF77 /* CCMMController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = CCMMController.py; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.python; };
+		82D9A4641102BCD7003D15CA /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
+		82E116E4110165940075A63E /* Add.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Add.tiff; sourceTree = "<group>"; };
+		82E116E6110165A20075A63E /* Remove.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Remove.tiff; sourceTree = "<group>"; };
+		82E116E8110165A80075A63E /* reload.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = reload.tiff; sourceTree = "<group>"; };
+		82E1171711016B980075A63E /* Spotlight.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Spotlight.tiff; sourceTree = "<group>"; };
+		82F0166F1110070100048140 /* noicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noicon.png; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* CC Mod Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CC Mod Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				77631A270C06C501005415CB /* Python.framework in Frameworks */,
+				82610715110EA68D003D4DF4 /* BWToolkitFramework.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				826103D4110B4AC700D07836 /* ModScanner.py */,
+				7790198E0C07548A00326F66 /* MCCMMAppDelegate.py */,
+				82A7BC4A110137E000DEAF77 /* CCMMController.py */,
+				827E3024110E601900BFA116 /* CCDir.py */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77631A260C06C501005415CB /* Python.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				82610714110EA68D003D4DF4 /* BWToolkitFramework.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* CC Mod Manager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* MCCMM */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = MCCMM;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8261074A110EA6A3003D4DF4 /* BWToolkitFrameworkWrapper.py */,
+				32CA4F630368D1EE00C91783 /* CC Mod Manager_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				77631A3E0C0748CF005415CB /* main.py */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				82F0166F1110070100048140 /* noicon.png */,
+				82D9A4641102BCD7003D15CA /* icon.icns */,
+				826102D2110AB20500D07836 /* ccicon.png */,
+				82E1171711016B980075A63E /* Spotlight.tiff */,
+				82E116E6110165A20075A63E /* Remove.tiff */,
+				82E116E8110165A80075A63E /* reload.tiff */,
+				82E116E4110165940075A63E /* Add.tiff */,
+				77C8C1F70C07829500965286 /* MainMenu.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* CC Mod Manager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "CC Mod Manager" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				82E116B11101598E0075A63E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CC Mod Manager";
+			productInstallPath = "$(HOME)/Applications";
+			productName = MCCMM;
+			productReference = 8D1107320486CEB800E47090 /* CC Mod Manager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CC Mod Manager" */;
+			compatibilityVersion = "Xcode 3.0";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* MCCMM */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* CC Mod Manager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				77631A3F0C0748CF005415CB /* main.py in Resources */,
+				7790198F0C07548A00326F66 /* MCCMMAppDelegate.py in Resources */,
+				77C8C1F90C07829500965286 /* MainMenu.xib in Resources */,
+				82A7BC4B110137E000DEAF77 /* CCMMController.py in Resources */,
+				82E116E5110165940075A63E /* Add.tiff in Resources */,
+				82E116E7110165A20075A63E /* Remove.tiff in Resources */,
+				82E116E9110165A80075A63E /* reload.tiff in Resources */,
+				82E1171811016B980075A63E /* Spotlight.tiff in Resources */,
+				82D9A4651102BCD7003D15CA /* icon.icns in Resources */,
+				826102D3110AB20500D07836 /* ccicon.png in Resources */,
+				826103D5110B4AC700D07836 /* ModScanner.py in Resources */,
+				827E3025110E601900BFA116 /* CCDir.py in Resources */,
+				8261074B110EA6A3003D4DF4 /* BWToolkitFrameworkWrapper.py in Resources */,
+				82F016701110070100048140 /* noicon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		77C8C1F70C07829500965286 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77C8C1F80C07829500965286 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CC Mod Manager_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "CC Mod Manager";
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CC Mod Manager_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				PRODUCT_NAME = "CC Mod Manager";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.5.sdk";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "CC Mod Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CC Mod Manager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
