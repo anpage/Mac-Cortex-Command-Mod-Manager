@@ -276,7 +276,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
+									<integer>2</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -319,7 +319,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>CCDir.py</string>
+								<string>compilemain.py</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -327,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>CCDir.py</string>
+										<string>compilemain.py</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>828C75761142F67C00EE6763</string>
+										<string>828C758A1142F94E00EE6763</string>
 										<key>history</key>
 										<array>
 											<string>82E1171A11017AE20075A63E</string>
@@ -352,7 +352,8 @@
 											<string>828C75671142F62900EE6763</string>
 											<string>828C75681142F62900EE6763</string>
 											<string>828C75691142F62900EE6763</string>
-											<string>828C755F1142F5F800EE6763</string>
+											<string>828C75881142F94E00EE6763</string>
+											<string>828C75891142F94E00EE6763</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -550,13 +551,13 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>828C75771142F67C00EE6763</string>
+		<string>828C758B1142F94E00EE6763</string>
 		<string>828C75231142F08400EE6763</string>
 		<string>828C75241142F08400EE6763</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>82637BDE110036BF00F7CA69</string>
 		<string>/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/CC Mod Manager.xcodeproj</string>
+		<string>1C78EAAD065D492600B07095</string>
 	</array>
 	<key>WindowString</key>
 	<string>4 55 1276 723 0 0 1280 778 </string>
@@ -932,7 +933,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

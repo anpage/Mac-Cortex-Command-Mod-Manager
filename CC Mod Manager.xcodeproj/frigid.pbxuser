@@ -175,6 +175,9 @@
 			828C756A1142F62900EE6763 /* PBXTextBookmark */ = 828C756A1142F62900EE6763 /* PBXTextBookmark */;
 			828C75721142F63D00EE6763 /* PBXTextBookmark */ = 828C75721142F63D00EE6763 /* PBXTextBookmark */;
 			828C75761142F67C00EE6763 /* PBXTextBookmark */ = 828C75761142F67C00EE6763 /* PBXTextBookmark */;
+			828C75881142F94E00EE6763 /* PBXTextBookmark */ = 828C75881142F94E00EE6763 /* PBXTextBookmark */;
+			828C75891142F94E00EE6763 /* PBXTextBookmark */ = 828C75891142F94E00EE6763 /* PBXTextBookmark */;
+			828C758A1142F94E00EE6763 /* PBXTextBookmark */ = 828C758A1142F94E00EE6763 /* PBXTextBookmark */;
 			82A1F80E1140CF340070AA4F = 82A1F80E1140CF340070AA4F /* PBXTextBookmark */;
 			82A1F80F1140CF340070AA4F = 82A1F80F1140CF340070AA4F /* PBXTextBookmark */;
 			82E1171A11017AE20075A63E = 82E1171A11017AE20075A63E /* PBXBookmark */;
@@ -399,7 +402,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {966, 1001}}";
 			sepNavSelRange = "{1682, 0}";
-			sepNavVisRange = "{712, 1690}";
+			sepNavVisRange = "{712, 1702}";
 		};
 	};
 	828C74ED1142DB9900EE6763 /* PBXTextBookmark */ = {
@@ -711,6 +714,43 @@
 		rType = 0;
 		vrLen = 1690;
 		vrLoc = 712;
+	};
+	828C757E1142F92B00EE6763 /* compilemain.py */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {966, 622}}";
+			sepNavSelRange = "{43, 0}";
+			sepNavVisRange = "{0, 48}";
+		};
+	};
+	828C75881142F94E00EE6763 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 827E3024110E601900BFA116 /* CCDir.py */;
+		name = "CCDir.py: 56";
+		rLen = 0;
+		rLoc = 1682;
+		rType = 0;
+		vrLen = 1702;
+		vrLoc = 712;
+	};
+	828C75891142F94E00EE6763 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 828C757E1142F92B00EE6763 /* compilemain.py */;
+		name = "compilemain.py: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 201;
+		vrLoc = 0;
+	};
+	828C758A1142F94E00EE6763 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 828C757E1142F92B00EE6763 /* compilemain.py */;
+		name = "compilemain.py: 3";
+		rLen = 0;
+		rLoc = 43;
+		rType = 0;
+		vrLen = 48;
+		vrLoc = 0;
 	};
 	82A1F80E1140CF340070AA4F /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
