@@ -231,8 +231,6 @@
 			<key>Layout</key>
 			<array>
 				<dict>
-					<key>BecomeActive</key>
-					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -270,6 +268,7 @@
 								<string>29B97314FDCFA39411CA2CEA</string>
 								<string>080E96DDFE201D6D7F000001</string>
 								<string>29B97315FDCFA39411CA2CEA</string>
+								<string>29B97317FDCFA39411CA2CEA</string>
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>1058C7A0FEA54F0111CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
@@ -277,7 +276,9 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>25</integer>
+									<integer>5</integer>
+									<integer>1</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -311,12 +312,14 @@
 					<key>Dock</key>
 					<array>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>BWToolkitFrameworkWrapper.py</string>
+								<string>CCDir.py</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -324,11 +327,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>BWToolkitFrameworkWrapper.py</string>
+										<string>CCDir.py</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>828C74ED1142DB9900EE6763</string>
+										<string>828C75761142F67C00EE6763</string>
 										<key>history</key>
 										<array>
 											<string>82E1171A11017AE20075A63E</string>
@@ -344,12 +347,12 @@
 											<string>82386DE61113ABEE0066C9E9</string>
 											<string>82A1F80E1140CF340070AA4F</string>
 											<string>82774F651141F60E00E6F18D</string>
-											<string>82774FAE11420C3F00E6F18D</string>
-											<string>82774FB711420FC300E6F18D</string>
-											<string>82774FC41142109E00E6F18D</string>
-											<string>82774FC51142109E00E6F18D</string>
-											<string>827750331142175700E6F18D</string>
-											<string>8277503611421DFE00E6F18D</string>
+											<string>828C751C1142F08400EE6763</string>
+											<string>828C752E1142F2B300EE6763</string>
+											<string>828C75671142F62900EE6763</string>
+											<string>828C75681142F62900EE6763</string>
+											<string>828C75691142F62900EE6763</string>
+											<string>828C755F1142F5F800EE6763</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -361,14 +364,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1027, 521}}</string>
+								<string>{{0, 0}, {1027, 677}}</string>
 								<key>RubberWindowFrame</key>
 								<string>4 55 1276 723 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>521pt</string>
+							<string>677pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -381,14 +384,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 526}, {1027, 156}}</string>
+								<string>{{0, 682}, {1027, 0}}</string>
 								<key>RubberWindowFrame</key>
 								<string>4 55 1276 723 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>156pt</string>
+							<string>0pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -547,6 +550,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>828C75771142F67C00EE6763</string>
+		<string>828C75231142F08400EE6763</string>
+		<string>828C75241142F08400EE6763</string>
+		<string>1C78EAAD065D492600B07095</string>
+		<string>1CD10A99069EF8BA00B06720</string>
 		<string>82637BDE110036BF00F7CA69</string>
 		<string>/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/CC Mod Manager.xcodeproj</string>
 	</array>
@@ -589,6 +597,8 @@
 							<string>242pt</string>
 						</dict>
 						<dict>
+							<key>BecomeActive</key>
+							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -641,7 +651,7 @@
 			<key>WindowToolGUID</key>
 			<string>82637BDE110036BF00F7CA69</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
@@ -750,13 +760,13 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1CD10A99069EF8BA00B06720</string>
-				<string>82774F6A1141F60E00E6F18D</string>
+				<string>828C750F1142F07500EE6763</string>
 				<string>1C162984064C10D400B95A72</string>
-				<string>82774F6B1141F60E00E6F18D</string>
-				<string>82774F6C1141F60E00E6F18D</string>
-				<string>82774F6D1141F60E00E6F18D</string>
-				<string>82774F6E1141F60E00E6F18D</string>
-				<string>82774F6F1141F60E00E6F18D</string>
+				<string>828C75101142F07500EE6763</string>
+				<string>828C75111142F07500EE6763</string>
+				<string>828C75121142F07500EE6763</string>
+				<string>828C75131142F07500EE6763</string>
+				<string>828C75141142F07500EE6763</string>
 			</array>
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.debugV3</string>
@@ -912,7 +922,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>1C78EAAD065D492600B07095</string>
-				<string>82774F701141F60E00E6F18D</string>
+				<string>828C75151142F07500EE6763</string>
 				<string>1C78EAAC065D492600B07095</string>
 			</array>
 			<key>ToolbarConfiguration</key>
@@ -922,7 +932,7 @@
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>
