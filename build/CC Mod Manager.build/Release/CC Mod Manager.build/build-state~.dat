@@ -1,0 +1,537 @@
+TCC Mod Manager
+v7
+r0
+t289457413.326120
+cCheck dependencies
+cProcessInfoPlistFile "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Info.plist" Info.plist
+cCopyStringsFile "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCpResource "build/Release/CC Mod Manager.app/Contents/Resources/main.py" main.py
+cCpResource "build/Release/CC Mod Manager.app/Contents/Resources/MCCMMAppDelegate.py" MCCMMAppDelegate.py
+cCompileXIB /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/English.lproj/MainMenu.xib
+cCpResource "build/Release/CC Mod Manager.app/Contents/Resources/CCMMController.py" CCMMController.py
+cCopyTiffFile "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/Add.tiff" Add.tiff
+cCopyTiffFile "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/Remove.tiff" Remove.tiff
+cCopyTiffFile "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/reload.tiff" reload.tiff
+cCopyTiffFile "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/Spotlight.tiff" Spotlight.tiff
+cCpResource "build/Release/CC Mod Manager.app/Contents/Resources/icon.icns" icon.icns
+cCpResource "build/Release/CC Mod Manager.app/Contents/Resources/ccicon.png" ccicon.png
+cCpResource "build/Release/CC Mod Manager.app/Contents/Resources/ModScanner.py" ModScanner.py
+cCpResource "build/Release/CC Mod Manager.app/Contents/Resources/CCDir.py" CCDir.py
+cCpResource "build/Release/CC Mod Manager.app/Contents/Resources/BWToolkitFrameworkWrapper.py" BWToolkitFrameworkWrapper.py
+cCpResource "build/Release/CC Mod Manager.app/Contents/Resources/noicon.png" noicon.png
+cProcessPCH "/var/folders/ts/tsjjISDhHKmrPMg5ywYev++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CC Mod Manager_Prefix-gvlsziejnwsymjgonulctrntgvcd/CC Mod Manager_Prefix.pch.gch" "CC Mod Manager_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH "/var/folders/ts/tsjjISDhHKmrPMg5ywYev++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CC Mod Manager_Prefix-dqyhilerwukrrocqtvlpkwxjjdfl/CC Mod Manager_Prefix.pch.gch" "CC Mod Manager_Prefix.pch" normal ppc objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/i386/main.o" /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/ppc/main.o" /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/i386/CC Mod Manager" normal i386
+cLd "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/ppc/CC Mod Manager" normal ppc
+cCreateUniversalBinary "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/MacOS/CC Mod Manager" normal "i386 ppc"
+cGenerateDSYMFile "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app.dSYM" "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/MacOS/CC Mod Manager"
+cPBXCp "build/Release/CC Mod Manager.app/Contents/Frameworks/BWToolkitFramework.framework" /Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/BWToolkitFramework.framework
+cTouch "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app"
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004AB44D2500000000000000EE
+t1253330213
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/BWToolkitFramework.framework
+c000000004B5103ED00000000000000EE
+t1263600621
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/BWToolkitFramework.framework/BWToolkitFramework
+c000000004A47D2CD00000000000E0DD4
+t1246221005
+s921044
+
+N/Developer/SDKs/MacOSX10.5.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.5.sdk/usr/include/Python2.5/Python.h
+c000000004864C5EF000000000000106C
+t1214563823
+s4204
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/System/Library/Frameworks/Python.framework/Python
+c000000004A54433B00000000003E7770
+t1247036219
+s4093808
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/Add.tiff
+c00000000429EF13400000000000040D4
+t1117712692
+s16596
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/BWToolkitFrameworkWrapper.py
+c000000004B5E46DE0000000000000103
+t1264469726
+s259
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/CC Mod Manager_Prefix.pch
+c000000004B4FFF3B000000000000008D
+t1263533883
+s141
+i<Cocoa/Cocoa.h>
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/CCDir.py
+c000000004B5E76E200000000000007FA
+t1264482018
+s2042
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/CCMMController.py
+c000000004B625B400000000000000B72
+t1264737088
+s2930
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/English.lproj/InfoPlist.strings
+c000000004B5FD9220000000000000142
+t1264572706
+s322
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/English.lproj/MainMenu.xib
+c000000004B622168000000000002BABE
+t1264722280
+s178878
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/MCCMMAppDelegate.py
+c000000004B51029B000000000000013C
+t1263600283
+s316
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/ModScanner.py
+c000000004B625BA80000000000000B1F
+t1264737192
+s2847
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/Remove.tiff
+c00000000432448380000000000004994
+t1126451256
+s18836
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/Spotlight.tiff
+c0000000043244A060000000000004994
+t1126451718
+s18836
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/i386/CC Mod Manager
+t1267764612
+s13964
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/i386/CC Mod Manager.LinkFileList
+c000000004B908D79000000000000008A
+t1267764601
+s138
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/i386/main.o
+t1267764611
+s10400
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/ppc/CC Mod Manager
+t1267764612
+s13456
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/ppc/CC Mod Manager.LinkFileList
+c000000004B908D790000000000000089
+t1267764601
+s137
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/ppc/main.o
+t1267764611
+s11016
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app
+t1267764613
+s102
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app.dSYM
+t1267764613
+s102
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Frameworks/BWToolkitFramework.framework
+t1267764613
+s204
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Info.plist
+t1267764601
+s903
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/MacOS/CC Mod Manager
+t1267764612
+s33936
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/PkgInfo
+t1267764601
+s8
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/Add.tiff
+t1267764602
+s16596
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/BWToolkitFrameworkWrapper.py
+t1267764602
+s259
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/CCDir.py
+t1267764602
+s2042
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/CCMMController.py
+t1267764602
+s2930
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1267764602
+s322
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/English.lproj/MainMenu.nib
+t1267764604
+s42194
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/MCCMMAppDelegate.py
+t1267764601
+s316
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/ModScanner.py
+t1267764603
+s2847
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/Remove.tiff
+t1267764602
+s18836
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/Spotlight.tiff
+t1267764602
+s18836
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/ccicon.png
+t1267764603
+s16826
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/icon.icns
+t1267764602
+s49847
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/main.py
+t1267764601
+s503
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/noicon.png
+t1267764603
+s2039
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/reload.tiff
+t1267764602
+s16628
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/ccicon.png
+c000000004B52848E00000000000041BA
+t1263699086
+s16826
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/icon.icns
+c000000004B52851C000000000000C2B7
+t1263699228
+s49847
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/main.m
+c000000004B612947000000000000071B
+t1264658759
+s1819
+i<Python2.5/Python.h>
+i<Cocoa/Cocoa.h>
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/main.py
+c000000004B5E76E800000000000001F7
+t1264482024
+s503
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/noicon.png
+c000000004B4BE39A00000000000007F7
+t1263264666
+s2039
+
+N/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/reload.tiff
+c0000000043EA144600000000000040F4
+t1139414086
+s16628
+
+N/var/folders/ts/tsjjISDhHKmrPMg5ywYev++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CC Mod Manager_Prefix-dqyhilerwukrrocqtvlpkwxjjdfl/CC Mod Manager_Prefix.pch.gch
+t1267764610
+s50057456
+
+N/var/folders/ts/tsjjISDhHKmrPMg5ywYev++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CC Mod Manager_Prefix-gvlsziejnwsymjgonulctrntgvcd/CC Mod Manager_Prefix.pch.gch
+t1267764610
+s52826544
+
+NInfo.plist
+c000000004B5FD8BF0000000000000398
+t1264572607
+s920
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies289457401#289457401#0(0"0(0#1#0"9007637348679712#0"0#
+
+CCompileC "build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/i386/main.o" /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s289457410.376817
+e289457411.445106
+r1
+xCompileC
+xbuild/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/i386/main.o
+x/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/main.m289457410#289457411#0(0"0(0#0#61"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/main.m4300885448#1325"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/CC Mod Manager.hmap" -F/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release -I/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/include "-I/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/DerivedSources/i386" "-I/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/DerivedSources" -include "/var/folders/ts/tsjjISDhHKmrPMg5ywYev++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CC Mod Manager_Prefix-gvlsziejnwsymjgonulctrntgvcd/CC Mod Manager_Prefix.pch" -c /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/main.m -o "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/i386/main.o"0#
+
+CCompileC "build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/ppc/main.o" /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/main.m normal ppc objective-c com.apple.compilers.gcc.4_2
+s289457410.408226
+e289457411.678092
+r1
+xCompileC
+xbuild/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/ppc/main.o
+x/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/main.m
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/main.m289457410#289457411#0(0"0(0#0#61"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/main.m4300885448#1319"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/CC Mod Manager.hmap" -F/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release -I/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/include "-I/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/DerivedSources/ppc" "-I/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/DerivedSources" -include "/var/folders/ts/tsjjISDhHKmrPMg5ywYev++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CC Mod Manager_Prefix-dqyhilerwukrrocqtvlpkwxjjdfl/CC Mod Manager_Prefix.pch" -c /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/main.m -o "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/ppc/main.o"0#
+
+CCompileXIB /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/English.lproj/MainMenu.xib
+s289457401.682225
+e289457404.184501
+r1
+xCompileXIB
+x/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/English.lproj/MainMenu.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/English.lproj/MainMenu.xib:527: warning: Custom values for the "identifier" attribute are not available in Interface Builder versions prior to 3.2.
+o/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/English.lproj/MainMenu.xib:573: warning: Custom values for the "identifier" attribute are not available in Interface Builder versions prior to 3.2.
+o/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/English.lproj/MainMenu.xib:580: warning: Custom values for the "identifier" attribute are not available in Interface Builder versions prior to 3.2.
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib289457401#289457404#0(650"/* com.apple.ibtool.document.warnings *//Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/English.lproj/MainMenu.xib:527: warning: Custom values for the "identifier" attribute are not available in Interface Builder versions prior to 3.2./Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/English.lproj/MainMenu.xib:573: warning: Custom values for the "identifier" attribute are not available in Interface Builder versions prior to 3.2./Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/English.lproj/MainMenu.xib:580: warning: Custom values for the "identifier" attribute are not available in Interface Builder versions prior to 3.2.3(22@106"Custom values for the "identifier" attribute are not available in Interface Builder versions prior to 3.2.289457404#18446744073709551615#0#0(6@81"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/English.lproj/MainMenu.xib286415080#527#0#527#0#0"0(22@106"Custom values for the "identifier" attribute are not available in Interface Builder versions prior to 3.2.289457404#18446744073709551615#0#0(6@81"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/English.lproj/MainMenu.xib286415080#573#0#573#0#0"0(22@106"Custom values for the "identifier" attribute are not available in Interface Builder versions prior to 3.2.289457404#18446744073709551615#0#0(6@81"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/English.lproj/MainMenu.xib286415080#580#0#580#0#0"0(0#0#81"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/English.lproj/MainMenu.xib4300885448#386"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/English.lproj/MainMenu.nib" /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/English.lproj/MainMenu.xib0#
+
+CCopyStringsFile "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s289457401.658134
+e289457402.684048
+r1
+xCopyStringsFile
+x/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings289457401#289457402#0(0"0(0#0#86"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/English.lproj/InfoPlist.strings4300885448#409"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/English.lproj"0#
+
+CCopyTiffFile "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/Add.tiff" Add.tiff
+s289457402.684949
+e289457402.821517
+r1
+xCopyTiffFile
+x/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/Add.tiff
+xAdd.tiff
+lSLF07#2@13"Copy Add.tiff289457402#289457402#0(0"0(0#0#63"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/Add.tiff4300885448#279"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Add.tiff --outdir "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources"0#
+
+CCopyTiffFile "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/Remove.tiff" Remove.tiff
+s289457402.821630
+e289457402.842696
+r1
+xCopyTiffFile
+x/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/Remove.tiff
+xRemove.tiff
+lSLF07#2@16"Copy Remove.tiff289457402#289457402#0(0"0(0#0#66"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/Remove.tiff4300885448#282"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Remove.tiff --outdir "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources"0#
+
+CCopyTiffFile "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/Spotlight.tiff" Spotlight.tiff
+s289457402.864920
+e289457402.886502
+r1
+xCopyTiffFile
+x/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/Spotlight.tiff
+xSpotlight.tiff
+lSLF07#2@19"Copy Spotlight.tiff289457402#289457402#0(0"0(0#0#69"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/Spotlight.tiff4300885448#285"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff Spotlight.tiff --outdir "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources"0#
+
+CCopyTiffFile "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/reload.tiff" reload.tiff
+s289457402.842809
+e289457402.864801
+r1
+xCopyTiffFile
+x/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources/reload.tiff
+xreload.tiff
+lSLF07#2@16"Copy reload.tiff289457402#289457402#0(0"0(0#0#66"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/reload.tiff4300885448#282"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copytiff reload.tiff --outdir "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources"0#
+
+CCpResource "build/Release/CC Mod Manager.app/Contents/Resources/BWToolkitFrameworkWrapper.py" BWToolkitFrameworkWrapper.py
+s289457402.893048
+e289457402.966719
+r1
+xCpResource
+xbuild/Release/CC Mod Manager.app/Contents/Resources/BWToolkitFrameworkWrapper.py
+xBWToolkitFrameworkWrapper.py
+lSLF07#2@33"Copy BWToolkitFrameworkWrapper.py289457402#289457402#0(0"0(0#0#83"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/BWToolkitFrameworkWrapper.py4300885448#424"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/BWToolkitFrameworkWrapper.py "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources"0#
+
+CCpResource "build/Release/CC Mod Manager.app/Contents/Resources/CCDir.py" CCDir.py
+s289457402.891275
+e289457402.965821
+r1
+xCpResource
+xbuild/Release/CC Mod Manager.app/Contents/Resources/CCDir.py
+xCCDir.py
+lSLF07#2@13"Copy CCDir.py289457402#289457402#0(0"0(0#0#63"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/CCDir.py4300885448#404"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/CCDir.py "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources"0#
+
+CCpResource "build/Release/CC Mod Manager.app/Contents/Resources/CCMMController.py" CCMMController.py
+s289457402.684158
+e289457402.690546
+r1
+xCpResource
+xbuild/Release/CC Mod Manager.app/Contents/Resources/CCMMController.py
+xCCMMController.py
+lSLF07#2@22"Copy CCMMController.py289457402#289457402#0(0"0(0#0#72"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/CCMMController.py4300885448#413"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/CCMMController.py "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources"0#
+
+CCpResource "build/Release/CC Mod Manager.app/Contents/Resources/MCCMMAppDelegate.py" MCCMMAppDelegate.py
+s289457401.681375
+e289457402.018067
+r1
+xCpResource
+xbuild/Release/CC Mod Manager.app/Contents/Resources/MCCMMAppDelegate.py
+xMCCMMAppDelegate.py
+lSLF07#2@24"Copy MCCMMAppDelegate.py289457401#289457402#0(0"0(0#0#74"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/MCCMMAppDelegate.py4300885448#415"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/MCCMMAppDelegate.py "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources"0#
+
+CCpResource "build/Release/CC Mod Manager.app/Contents/Resources/ModScanner.py" ModScanner.py
+s289457402.889481
+e289457403.013161
+r1
+xCpResource
+xbuild/Release/CC Mod Manager.app/Contents/Resources/ModScanner.py
+xModScanner.py
+lSLF07#2@18"Copy ModScanner.py289457402#289457403#0(0"0(0#0#68"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/ModScanner.py4300885448#409"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/ModScanner.py "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources"0#
+
+CCpResource "build/Release/CC Mod Manager.app/Contents/Resources/ccicon.png" ccicon.png
+s289457402.887531
+e289457403.016295
+r1
+xCpResource
+xbuild/Release/CC Mod Manager.app/Contents/Resources/ccicon.png
+xccicon.png
+lSLF07#2@15"Copy ccicon.png289457402#289457403#0(0"0(0#0#65"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/ccicon.png4300885448#406"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/ccicon.png "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources"0#
+
+CCpResource "build/Release/CC Mod Manager.app/Contents/Resources/icon.icns" icon.icns
+s289457402.886608
+e289457402.994197
+r1
+xCpResource
+xbuild/Release/CC Mod Manager.app/Contents/Resources/icon.icns
+xicon.icns
+lSLF07#2@14"Copy icon.icns289457402#289457402#0(0"0(0#0#64"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/icon.icns4300885448#405"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/icon.icns "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources"0#
+
+CCpResource "build/Release/CC Mod Manager.app/Contents/Resources/main.py" main.py
+s289457401.679767
+e289457401.937140
+r1
+xCpResource
+xbuild/Release/CC Mod Manager.app/Contents/Resources/main.py
+xmain.py
+lSLF07#2@12"Copy main.py289457401#289457401#0(0"0(0#0#62"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/main.py4300885448#403"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/main.py "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources"0#
+
+CCpResource "build/Release/CC Mod Manager.app/Contents/Resources/noicon.png" noicon.png
+s289457402.894934
+e289457403.011580
+r1
+xCpResource
+xbuild/Release/CC Mod Manager.app/Contents/Resources/noicon.png
+xnoicon.png
+lSLF07#2@15"Copy noicon.png289457402#289457403#0(0"0(0#0#65"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/noicon.png4300885448#406"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/noicon.png "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Resources"0#
+
+CCreateUniversalBinary "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/MacOS/CC Mod Manager" normal "i386 ppc"
+s289457412.815117
+e289457412.872776
+r1
+xCreateUniversalBinary
+x/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/MacOS/CC Mod Manager
+xnormal
+xi386 ppc
+lSLF07#2@104"CreateUniversalBinary "build/Release/CC Mod Manager.app/Contents/MacOS/CC Mod Manager" normal "i386 ppc"289457412#289457412#0(0"0(0#0#63"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/i386 ppc4300885448#511"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    /usr/bin/lipo -create "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/i386/CC Mod Manager" "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/ppc/CC Mod Manager" -output "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/MacOS/CC Mod Manager"0#
+
+CGenerateDSYMFile "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app.dSYM" "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/MacOS/CC Mod Manager"
+s289457412.872900
+e289457413.022901
+r1
+xGenerateDSYMFile
+x/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app.dSYM
+x/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/MacOS/CC Mod Manager
+lSLF07#2@121"GenerateDSYMFile "build/Release/CC Mod Manager.app.dSYM" "build/Release/CC Mod Manager.app/Contents/MacOS/CC Mod Manager"289457412#289457413#0(0"0(0#0#117"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/MacOS/CC Mod Manager4300885448#312"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    /Developer/usr/bin/dsymutil "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/MacOS/CC Mod Manager" -o "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app.dSYM"0#
+
+CLd "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/i386/CC Mod Manager" normal i386
+s289457411.445213
+e289457412.815025
+r1
+xLd
+x/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/i386/CC Mod Manager
+xnormal
+xi386
+lSLF07#2@150"Link /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/i386/CC Mod Manager289457411#289457412#0(0"0(0#0#0"4300885448#741"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release -F/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release -filelist "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/i386/CC Mod Manager.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework Python -framework BWToolkitFramework -o "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/i386/CC Mod Manager"0#
+
+CLd "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/ppc/CC Mod Manager" normal ppc
+s289457411.678290
+e289457412.814001
+r1
+xLd
+x/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/ppc/CC Mod Manager
+xnormal
+xppc
+lSLF07#2@149"Link /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/ppc/CC Mod Manager289457411#289457412#0(0"0(0#0#0"4300885448#738"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch ppc -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release -F/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release -filelist "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/ppc/CC Mod Manager.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework Python -framework BWToolkitFramework -o "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/Objects-normal/ppc/CC Mod Manager"0#
+
+CPBXCp "build/Release/CC Mod Manager.app/Contents/Frameworks/BWToolkitFramework.framework" /Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/BWToolkitFramework.framework
+s289457413.023011
+e289457413.308826
+r1
+xPBXCp
+xbuild/Release/CC Mod Manager.app/Contents/Frameworks/BWToolkitFramework.framework
+x/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/BWToolkitFramework.framework
+lSLF07#2@83"Copy /Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/BWToolkitFramework.framework289457413#289457413#0(0"0(0#0#78"/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/BWToolkitFramework.framework4300885448#420"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -strip-debug-symbols -resolve-src-symlinks /Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/BWToolkitFramework.framework "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Frameworks"0#
+
+CProcessInfoPlistFile "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Info.plist" Info.plist
+s289457401.608758
+e289457401.657989
+r1
+xProcessInfoPlistFile
+x/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist289457401#289457401#0(0"0(0#0#65"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/Info.plist7953758733698542592#372"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    builtin-infoPlistUtility Info.plist -genpkginfo "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app/Contents/Info.plist"0#
+
+CProcessPCH "/var/folders/ts/tsjjISDhHKmrPMg5ywYev++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CC Mod Manager_Prefix-dqyhilerwukrrocqtvlpkwxjjdfl/CC Mod Manager_Prefix.pch.gch" "CC Mod Manager_Prefix.pch" normal ppc objective-c com.apple.compilers.gcc.4_2
+s289457404.215587
+e289457410.376695
+r1
+xProcessPCH
+x/var/folders/ts/tsjjISDhHKmrPMg5ywYev++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CC Mod Manager_Prefix-dqyhilerwukrrocqtvlpkwxjjdfl/CC Mod Manager_Prefix.pch.gch
+xCC Mod Manager_Prefix.pch
+xnormal
+xppc
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile CC Mod Manager_Prefix.pch289457404#289457410#0(0"0(0#0#80"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/CC Mod Manager_Prefix.pch4300885448#1203"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch ppc -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mtune=G5 -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/CC Mod Manager.hmap" -F/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release -I/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/include "-I/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/DerivedSources/ppc" "-I/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/DerivedSources" -c "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/CC Mod Manager_Prefix.pch" -o "/var/folders/ts/tsjjISDhHKmrPMg5ywYev++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CC Mod Manager_Prefix-dqyhilerwukrrocqtvlpkwxjjdfl/CC Mod Manager_Prefix.pch.gch"0#
+
+CProcessPCH "/var/folders/ts/tsjjISDhHKmrPMg5ywYev++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CC Mod Manager_Prefix-gvlsziejnwsymjgonulctrntgvcd/CC Mod Manager_Prefix.pch.gch" "CC Mod Manager_Prefix.pch" normal i386 objective-c com.apple.compilers.gcc.4_2
+s289457404.184821
+e289457410.165807
+r1
+xProcessPCH
+x/var/folders/ts/tsjjISDhHKmrPMg5ywYev++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CC Mod Manager_Prefix-gvlsziejnwsymjgonulctrntgvcd/CC Mod Manager_Prefix.pch.gch
+xCC Mod Manager_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@36"Precompile CC Mod Manager_Prefix.pch289457404#289457410#0(0"0(0#0#80"/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/CC Mod Manager_Prefix.pch4300885448#1208"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 "-I/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/CC Mod Manager.hmap" -F/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release -I/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/include "-I/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/DerivedSources/i386" "-I/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/CC Mod Manager.build/Release/CC Mod Manager.build/DerivedSources" -c "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/CC Mod Manager_Prefix.pch" -o "/var/folders/ts/tsjjISDhHKmrPMg5ywYev++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/CC Mod Manager_Prefix-gvlsziejnwsymjgonulctrntgvcd/CC Mod Manager_Prefix.pch.gch"0#
+
+CTouch "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app"
+s289457413.308978
+e289457413.325922
+r1
+xTouch
+x/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app
+lSLF07#2@93"Touch /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app289457413#289457413#0(0"0(0#0#0"4300885448#174"    cd /Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager    /usr/bin/touch -c "/Users/frigid/Documents/Mac-Cortex-Command-Mod-Manager/build/Release/CC Mod Manager.app"0#
+
