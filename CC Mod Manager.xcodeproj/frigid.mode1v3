@@ -328,12 +328,11 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>82774F8F1141FB8700E6F18D</string>
+										<string>82774FF01142135E00E6F18D</string>
 										<key>history</key>
 										<array>
 											<string>82E1171A11017AE20075A63E</string>
 											<string>825BF7D1110EA5BA00C3B12C</string>
-											<string>82F016B411113CF800048140</string>
 											<string>82F016B711113CF800048140</string>
 											<string>82F016B811113CF800048140</string>
 											<string>82F016B911113CF800048140</string>
@@ -346,9 +345,11 @@
 											<string>82A1F80E1140CF340070AA4F</string>
 											<string>82A1F80F1140CF340070AA4F</string>
 											<string>82774F651141F60E00E6F18D</string>
-											<string>82774F661141F60E00E6F18D</string>
-											<string>82774F8D1141FB8700E6F18D</string>
-											<string>82774F8E1141FB8700E6F18D</string>
+											<string>82774FAE11420C3F00E6F18D</string>
+											<string>82774FB711420FC300E6F18D</string>
+											<string>82774FC41142109E00E6F18D</string>
+											<string>82774FC51142109E00E6F18D</string>
+											<string>82774FC61142109E00E6F18D</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -546,7 +547,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>82774F901141FB8700E6F18D</string>
+		<string>82774FF11142135E00E6F18D</string>
 		<string>82774F721141F60E00E6F18D</string>
 		<string>82774F731141F60E00E6F18D</string>
 		<string>1CD10A99069EF8BA00B06720</string>
@@ -893,7 +894,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {653, 410}}</string>
 								<key>RubberWindowFrame</key>
-								<string>267 263 653 451 0 0 1280 778 </string>
+								<string>102 235 653 451 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXDebugCLIModule</string>
@@ -922,7 +923,7 @@
 			<key>ToolbarConfiguration</key>
 			<string>xcode.toolbar.config.consoleV3</string>
 			<key>WindowString</key>
-			<string>267 263 653 451 0 0 1280 778 </string>
+			<string>102 235 653 451 0 0 1280 778 </string>
 			<key>WindowToolGUID</key>
 			<string>1C78EAAD065D492600B07095</string>
 			<key>WindowToolIsVisible</key>

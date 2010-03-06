@@ -16,6 +16,7 @@
 		82610715110EA68D003D4DF4 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82610714110EA68D003D4DF4 /* BWToolkitFramework.framework */; };
 		82610718110EA693003D4DF4 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 82610714110EA68D003D4DF4 /* BWToolkitFramework.framework */; };
 		8261074B110EA6A3003D4DF4 /* BWToolkitFrameworkWrapper.py in Resources */ = {isa = PBXBuildFile; fileRef = 8261074A110EA6A3003D4DF4 /* BWToolkitFrameworkWrapper.py */; };
+		82774F9F114209E700E6F18D /* modmover.py in Resources */ = {isa = PBXBuildFile; fileRef = 82774F9E114209E700E6F18D /* modmover.py */; };
 		827E3025110E601900BFA116 /* CCDir.py in Resources */ = {isa = PBXBuildFile; fileRef = 827E3024110E601900BFA116 /* CCDir.py */; };
 		82A7BC4B110137E000DEAF77 /* CCMMController.py in Resources */ = {isa = PBXBuildFile; fileRef = 82A7BC4A110137E000DEAF77 /* CCMMController.py */; };
 		82D9A4651102BCD7003D15CA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 82D9A4641102BCD7003D15CA /* icon.icns */; };
@@ -58,6 +59,7 @@
 		826103D4110B4AC700D07836 /* ModScanner.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = ModScanner.py; sourceTree = "<group>"; };
 		82610714110EA68D003D4DF4 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = Library/Frameworks/BWToolkitFramework.framework; sourceTree = SDKROOT; };
 		8261074A110EA6A3003D4DF4 /* BWToolkitFrameworkWrapper.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = BWToolkitFrameworkWrapper.py; sourceTree = "<group>"; };
+		82774F9E114209E700E6F18D /* modmover.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = modmover.py; sourceTree = "<group>"; };
 		827E3024110E601900BFA116 /* CCDir.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = CCDir.py; sourceTree = "<group>"; };
 		82A7BC4A110137E000DEAF77 /* CCMMController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = CCMMController.py; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.python; };
 		82D9A4641102BCD7003D15CA /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				7790198E0C07548A00326F66 /* MCCMMAppDelegate.py */,
 				82A7BC4A110137E000DEAF77 /* CCMMController.py */,
 				827E3024110E601900BFA116 /* CCDir.py */,
+				82774F9E114209E700E6F18D /* modmover.py */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				827E3025110E601900BFA116 /* CCDir.py in Resources */,
 				8261074B110EA6A3003D4DF4 /* BWToolkitFrameworkWrapper.py in Resources */,
 				82F016701110070100048140 /* noicon.png in Resources */,
+				82774F9F114209E700E6F18D /* modmover.py in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,7 @@ from objc import IBAction
 from Foundation import *
 from Cocoa import * 
 
+import modmover
 from ModScanner import ModScanner
 import CCDir as ccDir
 
@@ -45,6 +46,10 @@ class CCMMController(NSObject):
         self.mods = NSMutableArray.alloc().init()
         
         self.scanMods_(None)
+        
+        nameDescriptior = NSSortDescriptor.alloc().initWithKey_ascending_(u"modName", True)
+        
+        self.tableView.setSortDescriptors_([nameDescriptior,])
     
     @IBAction
     def runCC_(self, sender):
@@ -71,7 +76,18 @@ class CCMMController(NSObject):
         
     @IBAction
     def checkBtn_(self, sender):
-        print "Disabling " + str(self.mods[sender.selectedRow()]["modFolder"])
+        modfolder = str(self.mods[sender.selectedRow()]["modFolder"])
+        modname = str(self.mods[sender.selectedRow()]["modName"])
+        enabled = self.mods[sender.selectedRow()]["modIsEnabled"]
+        
+        if enabled == True:
+            print "Disabling " + modfolder
+            modmover.disableMod(self.CCPath, modfolder)
+        else:
+            print "Enabling " + modfolder
+            modmover.enableMod(self.CCPath, modfolder)
+            
+        self.scanMods_(None)
         
     def tableView_objectValueForTableColumn_row_(self, aTableView, aTableColumn, rowIndex):
         if rowIndex >= 0 and rowIndex < self.mods.count():
@@ -97,6 +113,7 @@ class CCMMController(NSObject):
     
     #This delegate function is for sorting the columns when the respective header is clicked.
     def tableView_sortDescriptorsDidChange_(self, aTableView, oldDescriptors):
+        print aTableView.sortDescriptors()
         self.mods.sortUsingDescriptors_(aTableView.sortDescriptors())
         aTableView.reloadData()
         
