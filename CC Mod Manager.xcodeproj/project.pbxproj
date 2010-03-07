@@ -6,6 +6,20 @@
 	objectVersion = 44;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		828C75BA1143268700EE6763 /* Distribution */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 828C75BF1143269700EE6763 /* Build configuration list for PBXAggregateTarget "Distribution" */;
+			buildPhases = (
+				828C75B91143268700EE6763 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Distribution;
+			productName = Distribution;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		77631A270C06C501005415CB /* Python.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77631A260C06C501005415CB /* Python.framework */; };
 		77631A3F0C0748CF005415CB /* main.py in Resources */ = {isa = PBXBuildFile; fileRef = 77631A3E0C0748CF005415CB /* main.py */; };
@@ -19,6 +33,9 @@
 		82774F9F114209E700E6F18D /* modmover.py in Resources */ = {isa = PBXBuildFile; fileRef = 82774F9E114209E700E6F18D /* modmover.py */; };
 		827E3025110E601900BFA116 /* CCDir.py in Resources */ = {isa = PBXBuildFile; fileRef = 827E3024110E601900BFA116 /* CCDir.py */; };
 		828C757F1142F92B00EE6763 /* compilemain.py in Resources */ = {isa = PBXBuildFile; fileRef = 828C757E1142F92B00EE6763 /* compilemain.py */; };
+		828C75C3114328E400EE6763 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 828C75C2114328E400EE6763 /* Sparkle.framework */; };
+		828C75CC1143290C00EE6763 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 828C75C2114328E400EE6763 /* Sparkle.framework */; };
+		828C75D811432B1A00EE6763 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 828C75D711432B1A00EE6763 /* dsa_pub.pem */; };
 		82A7BC4B110137E000DEAF77 /* CCMMController.py in Resources */ = {isa = PBXBuildFile; fileRef = 82A7BC4A110137E000DEAF77 /* CCMMController.py */; };
 		82D9A4651102BCD7003D15CA /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 82D9A4641102BCD7003D15CA /* icon.icns */; };
 		82E116E5110165940075A63E /* Add.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 82E116E4110165940075A63E /* Add.tiff */; };
@@ -38,6 +55,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				828C75CC1143290C00EE6763 /* Sparkle.framework in CopyFiles */,
 				82610718110EA693003D4DF4 /* BWToolkitFramework.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -63,6 +81,8 @@
 		82774F9E114209E700E6F18D /* modmover.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = modmover.py; sourceTree = "<group>"; };
 		827E3024110E601900BFA116 /* CCDir.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = CCDir.py; sourceTree = "<group>"; };
 		828C757E1142F92B00EE6763 /* compilemain.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = compilemain.py; sourceTree = "<group>"; };
+		828C75C2114328E400EE6763 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		828C75D711432B1A00EE6763 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		82A7BC4A110137E000DEAF77 /* CCMMController.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = CCMMController.py; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.python; };
 		82D9A4641102BCD7003D15CA /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = icon.icns; sourceTree = "<group>"; };
 		82E116E4110165940075A63E /* Add.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = Add.tiff; sourceTree = "<group>"; };
@@ -82,6 +102,7 @@
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				77631A270C06C501005415CB /* Python.framework in Frameworks */,
 				82610715110EA68D003D4DF4 /* BWToolkitFramework.framework in Frameworks */,
+				828C75C3114328E400EE6763 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +125,7 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				828C75C2114328E400EE6763 /* Sparkle.framework */,
 				77631A260C06C501005415CB /* Python.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 				82610714110EA68D003D4DF4 /* BWToolkitFramework.framework */,
@@ -155,6 +177,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				828C75D711432B1A00EE6763 /* dsa_pub.pem */,
 				82F0166F1110070100048140 /* noicon.png */,
 				82D9A4641102BCD7003D15CA /* icon.icns */,
 				826102D2110AB20500D07836 /* ccicon.png */,
@@ -213,6 +236,7 @@
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* CC Mod Manager */,
+				828C75BA1143268700EE6763 /* Distribution */,
 			);
 		};
 /* End PBXProject section */
@@ -239,10 +263,27 @@
 				82F016701110070100048140 /* noicon.png in Resources */,
 				82774F9F114209E700E6F18D /* modmover.py in Resources */,
 				828C757F1142F92B00EE6763 /* compilemain.py in Resources */,
+				828C75D811432B1A00EE6763 /* dsa_pub.pem in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		828C75B91143268700EE6763 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -o errexit\n\n[ $BUILD_STYLE = Release ] || { echo Distribution target requires \"'Release'\" build style; false; }\n\nVERSION=$(defaults read \"$BUILT_PRODUCTS_DIR/$PROJECT_NAME.app/Contents/Info\" CFBundleVersion)\nDOWNLOAD_BASE_URL=\"http://www.example.com/download/\"\nRELEASENOTES_URL=\"http://www.example.com/software/my-cool-app/release-notes.html#version-$VERSION\"\n\nARCHIVE_FILENAME=\"$PROJECT_NAME $VERSION.zip\"\nDOWNLOAD_URL=\"$DOWNLOAD_BASE_URL/$ARCHIVE_FILENAME\"\nKEYCHAIN_PRIVKEY_NAME=\"Sparkle Private Key 1\"\n\nWD=$PWD\ncd \"$BUILT_PRODUCTS_DIR\"\nrm -f \"$PROJECT_NAME\"*.zip\nditto -ck --keepParent \"$PROJECT_NAME.app\" \"$ARCHIVE_FILENAME\"\n\nSIZE=$(stat -f %z \"$ARCHIVE_FILENAME\")\nPUBDATE=$(date +\"%a, %d %b %G %T %z\")\nSIGNATURE=$(\n\topenssl dgst -sha1 -binary < \"$ARCHIVE_FILENAME\" \\\n\t| openssl dgst -dss1 -sign <(security find-generic-password -g -s \"$KEYCHAIN_PRIVKEY_NAME\" 2>&1 1>/dev/null | perl -pe '($_) = /\"(.+)\"/; s/\\\\012/\\n/g' | perl -MXML::LibXML -e 'print XML::LibXML->new()->parse_file(\"-\")->findvalue(q(//string[preceding-sibling::key[1] = \"NOTE\"]))') \\\n\t| openssl enc -base64\n)\n\n[ $SIGNATURE ] || { echo Unable to load signing private key with name \"'$KEYCHAIN_PRIVKEY_NAME'\" from keychain; false; }\n\ncat <<EOF\n\t\t<item>\n\t\t\t<title>Version $VERSION</title>\n\t\t\t<sparkle:releaseNotesLink>$RELEASENOTES_URL</sparkle:releaseNotesLink>\n\t\t\t<pubDate>$PUBDATE</pubDate>\n\t\t\t<enclosure\n\t\t\t\turl=\"$DOWNLOAD_URL\"\n\t\t\t\tsparkle:version=\"$VERSION\"\n\t\t\t\ttype=\"application/octet-stream\"\n\t\t\t\tlength=\"$SIZE\"\n\t\t\t\tsparkle:dsaSignature=\"$SIGNATURE\"\n\t\t\t/>\n\t\t</item>\nEOF";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D11072C0486CEB800E47090 /* Sources */ = {
@@ -275,10 +316,35 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		828C75BB1143268700EE6763 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Distribution;
+			};
+			name = Debug;
+		};
+		828C75BC1143268700EE6763 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = Distribution;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
 		C01FCF4B08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
@@ -298,6 +364,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CC Mod Manager_Prefix.pch";
@@ -337,6 +407,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		828C75BF1143269700EE6763 /* Build configuration list for PBXAggregateTarget "Distribution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				828C75BB1143268700EE6763 /* Debug */,
+				828C75BC1143268700EE6763 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "CC Mod Manager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
