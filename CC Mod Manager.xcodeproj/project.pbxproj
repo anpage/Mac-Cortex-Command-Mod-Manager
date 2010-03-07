@@ -27,8 +27,6 @@
 		77C8C1F90C07829500965286 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77C8C1F70C07829500965286 /* MainMenu.xib */; };
 		826102D3110AB20500D07836 /* ccicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 826102D2110AB20500D07836 /* ccicon.png */; };
 		826103D5110B4AC700D07836 /* ModScanner.py in Resources */ = {isa = PBXBuildFile; fileRef = 826103D4110B4AC700D07836 /* ModScanner.py */; };
-		82610715110EA68D003D4DF4 /* BWToolkitFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82610714110EA68D003D4DF4 /* BWToolkitFramework.framework */; };
-		82610718110EA693003D4DF4 /* BWToolkitFramework.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 82610714110EA68D003D4DF4 /* BWToolkitFramework.framework */; };
 		8261074B110EA6A3003D4DF4 /* BWToolkitFrameworkWrapper.py in Resources */ = {isa = PBXBuildFile; fileRef = 8261074A110EA6A3003D4DF4 /* BWToolkitFrameworkWrapper.py */; };
 		82774F9F114209E700E6F18D /* modmover.py in Resources */ = {isa = PBXBuildFile; fileRef = 82774F9E114209E700E6F18D /* modmover.py */; };
 		827E3025110E601900BFA116 /* CCDir.py in Resources */ = {isa = PBXBuildFile; fileRef = 827E3024110E601900BFA116 /* CCDir.py */; };
@@ -56,7 +54,6 @@
 			dstSubfolderSpec = 10;
 			files = (
 				828C75CC1143290C00EE6763 /* Sparkle.framework in CopyFiles */,
-				82610718110EA693003D4DF4 /* BWToolkitFramework.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,7 +73,6 @@
 		77C8C1F80C07829500965286 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		826102D2110AB20500D07836 /* ccicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ccicon.png; sourceTree = "<group>"; };
 		826103D4110B4AC700D07836 /* ModScanner.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = ModScanner.py; sourceTree = "<group>"; };
-		82610714110EA68D003D4DF4 /* BWToolkitFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BWToolkitFramework.framework; path = Library/Frameworks/BWToolkitFramework.framework; sourceTree = SDKROOT; };
 		8261074A110EA6A3003D4DF4 /* BWToolkitFrameworkWrapper.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = BWToolkitFrameworkWrapper.py; sourceTree = "<group>"; };
 		82774F9E114209E700E6F18D /* modmover.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = modmover.py; sourceTree = "<group>"; };
 		827E3024110E601900BFA116 /* CCDir.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = CCDir.py; sourceTree = "<group>"; };
@@ -101,7 +97,6 @@
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
 				77631A270C06C501005415CB /* Python.framework in Frameworks */,
-				82610715110EA68D003D4DF4 /* BWToolkitFramework.framework in Frameworks */,
 				828C75C3114328E400EE6763 /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,7 +123,6 @@
 				828C75C2114328E400EE6763 /* Sparkle.framework */,
 				77631A260C06C501005415CB /* Python.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
-				82610714110EA68D003D4DF4 /* BWToolkitFramework.framework */,
 			);
 			name = "Linked Frameworks";
 			sourceTree = "<group>";

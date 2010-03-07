@@ -188,7 +188,7 @@
 	};
 	7790198E0C07548A00326F66 /* MCCMMAppDelegate.py */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {966, 645}}";
+			sepNavIntBoundsRect = "{{0, 0}, {966, 436}}";
 			sepNavSelRange = "{175, 0}";
 			sepNavVisRange = "{0, 316}";
 			sepNavWindowFrame = "{{15, 63}, {1234, 715}}";
@@ -270,7 +270,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {966, 1066}}";
 			sepNavSelRange = "{2395, 64}";
-			sepNavVisRange = "{822, 2163}";
+			sepNavVisRange = "{1265, 1720}";
 			sepNavWindowFrame = "{{15, 63}, {1234, 715}}";
 		};
 	};
@@ -330,7 +330,7 @@
 		fRef = 77631A3E0C0748CF005415CB /* main.py */;
 		name = "main.py: 24";
 		rLen = 0;
-		rLoc = 503;
+		rLoc = 504;
 		rType = 0;
 		vrLen = 503;
 		vrLoc = 0;

@@ -6,12 +6,10 @@
 #  Copyright __MyCompanyName__ 2010. All rights reserved.
 #
 
-#### DO NOT MODIFY ####
 #import modules required by application
 import objc
 import Foundation
 import AppKit
-import BWToolkitFrameworkWrapper
 
 from PyObjCTools import AppHelper
 
@@ -21,4 +19,3 @@ import CCMMController
 
 # pass control to AppKit
 AppHelper.runEventLoop()
-#### DO NOT MODIFY ####
